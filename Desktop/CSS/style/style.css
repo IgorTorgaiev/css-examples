@@ -1,0 +1,142 @@
+/* 1. Selectors. Colors */
+
+/* h1 {
+    text-align: center;
+    color: green;
+}
+
+h2 {
+    text-align: right;
+    margin-left: 1150px;
+} */
+
+/* Below is the example with three paragraphs */
+/* In spite of the same tag p, all three sentences will have different colors */
+
+/* p:first-child {
+    color: orange;
+}
+
+
+#second {
+    color: violet;
+} 
+
+#third {
+    color: greenyellow;
+} */
+
+/* 1.1. Colors: HEX */
+
+/* * {
+    background-color: grey;
+}
+
+
+#one {
+    color: #ffffff;
+}
+
+#two {
+    color: #3a2b6a;
+}
+
+#three {
+    color: #3cba4b;
+}
+
+#four {
+    color: #b3b116;
+}
+
+#five {
+    color: #ff0000;
+}
+
+#six {
+    color: #ee82ee;
+} */
+
+
+/* 2. Backgrounds */
+
+/* #color {
+    background-color: rgb(49, 234, 102);
+    margin-right: 350px;
+} */
+
+/* 3. Opacity / Transparency */
+
+/* div #first {
+    background-color: brown;
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+    padding: 25px;
+}
+
+div #second {
+    background-color: brown;
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    padding: 25px;
+}
+
+div #third {
+    background-color: brown;
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    opacity: 0.1;
+    padding: 25px;
+} */
+
+/* 4. Background Image */
+
+/* body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg");
+    background-repeat: repeat-y;
+} */
+
+/* body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg");
+    background-repeat: repeat-x;
+    
+} */
+
+/* body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+} */
+
+/* 5. Background Attachment */
+
+/* body {
+    background-image: url("https://ak.picdn.net/shutterstock/videos/23863717/thumb/1.jpg?ip=x480");
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-left: 600px;
+    background-attachment: fixed;
+} */
+
+/* body {
+    background-image: url("https://ak.picdn.net/shutterstock/videos/23863717/thumb/1.jpg?ip=x480");
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-left: 600px;
+    background-attachment: scroll;
+} */
+
+/* 5. Background Shorthand */
+
+body {
+    background: url("https://ak.picdn.net/shutterstock/videos/23863717/thumb/1.jpg?ip=x480") top right no-repeat;
+    margin-right: 600px;
+}
